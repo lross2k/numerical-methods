@@ -1,5 +1,5 @@
 %Dados tol, iterMax, f, a y b
-function [mBS]=BisecnMet(a,b,f,tol,iterMax)
+function [mBS]=BisecMet(a,b,f,tol,iterMax)
 tol = vpa(tol); a = vpa(a); b = vpa(b);
 %Calcular fa y fb
   syms x
