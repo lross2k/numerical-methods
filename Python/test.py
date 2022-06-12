@@ -8,3 +8,5 @@ x = sym.Symbol('x')
 f = - 4*x + 15
 from NewtonRaphsonMet import newton_raphson_met
 print(newton_raphson_met(0,f,0.01,10))
+from NewtonRaphsonModMet import newton_raphson_mod_met
+print(newton_raphson_mod_met(0,f,0.01,10))

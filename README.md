@@ -22,8 +22,23 @@ purposes.
 ## Languages Used
 - MATLAB/Octave
 
+## Languages in progress
+- Python ***TODO***
+    - Gaussian Elimination Method pivot modification
+    - Newton Raphson Method modification
+    - Gauss-Seidel Method
+    - False Position Method
+    - Runge-Kutta Method of order II and IV
+    - Secant Method
+    - Hermite Polynomial
+    - Steffensen's Method
+    - Euler Method
+    - Lagrange Polynomial
+    - Jacobi Method
+    - Adams-Bashforth of order IV
+    - Adams-Moulton of order II
+
 ## Languages TODO
-- Python
 - Julia
 - C++
 - Rust
