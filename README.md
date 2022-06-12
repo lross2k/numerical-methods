@@ -25,7 +25,6 @@ purposes.
 ## Languages in progress
 - Python ***TODO***
     - Gaussian Elimination Method pivot modification
-    - Newton Raphson Method modification
     - Gauss-Seidel Method
     - False Position Method
     - Runge-Kutta Method of order II and IV
