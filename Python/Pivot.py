@@ -38,7 +38,7 @@ def swap_rows(A,r0,r1):
     return(A)
 
 def pivot(A,B,k):
-    # Constantes
+    # Constants
     n = len(A)
     e = zeros(n,1)
     # Stepping cycle
@@ -49,3 +49,4 @@ def pivot(A,B,k):
     swap_rows(A,k,f)
     swap_rows(B,k,f)
     return([A,B])
+

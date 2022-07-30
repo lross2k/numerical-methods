@@ -1,3 +1,6 @@
+# Import pivot function
+from Pivot import pivot
+
 # Simple transpose function hack
 def transpose(x):
     try:
@@ -6,12 +9,13 @@ def transpose(x):
         for i in range(len(x)): x[i] = [x[i]] 
     return x
 
-def elim_gauss(A,b):
+def elim_gauss_piv(A,b):
     x = []
     # Constant declarations
     n = len(A)	# Matrix dimension
     # Forward elimination process
     for k in range(n-1):
+        [A,b] = pivot(A,b,k)	# Pivot function call
         for i in range(k+1,n):
             F = A[i][k]/A[k][k]
             for j in range(n):
