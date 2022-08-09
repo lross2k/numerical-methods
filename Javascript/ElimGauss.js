@@ -79,8 +79,10 @@ function  elimGauss(A,b) {
     return x;
 }
 
-function  elimGaussComplex(A,b) {
-    x = [];
+function  elimGaussComplex(A_old,b_old) {
+    let A = A_old.slice();
+    let b = b_old.slice();
+    let x = [];
     // Constant declarations
     const n = A.length	// Matrix dimension
     // Forward elimination process
