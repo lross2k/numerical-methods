@@ -129,12 +129,12 @@ function  elimGaussComplex(A,b) {
     return x;
 }
 
-let A = [[1,-1],[2,0]];
-let b = [[5],[2]];
-console.log(elimGauss(A,b));
+//let A = [[1,-1],[2,0]];
+//let b = [[5],[2]];
+//console.log(elimGauss(A,b));
 
-let a1 = new Complex(1,-4);
-A = [[a1,-1],[2,0]];
-b = [[5],[2]];
-console.log(elimGaussComplex(A,b));
+//let a1 = new Complex(1,-4);
+//A = [[a1,-1],[2,0]];
+//b = [[5],[2]];
+//console.log(elimGaussComplex(A,b));
 
