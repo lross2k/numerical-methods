@@ -25,3 +25,4 @@ function [mSol] = JacobiMet(A,b,x0,itermax,tol,p)
     mSol(cont,n+2) = error;
   end
 end
+
